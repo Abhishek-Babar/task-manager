@@ -1,0 +1,14 @@
+[
+  {
+    "name": "open",
+    "tasks": []
+  },
+  {
+    "name": "in_progress",
+    "tasks": []
+  },
+  {
+    "name": "completed",
+    "tasks": []
+  }
+]
