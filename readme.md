@@ -2,6 +2,7 @@
 ![Screen Recording 2024-03-11 at 2 56 06 PM (4)](https://github.com/Abhishek-Babar/task-manager/assets/84069474/5a49a01f-eff9-45d1-a349-e724c8402210)
 This is a task management application that helps you organize your tasks efficiently. It consists of both frontend and backend components. Follow the instructions below to run the application on your local machine.
 
+Please node version above 18 as my local machine had node v18.17.1
 ### Backend
 
 #### Installation

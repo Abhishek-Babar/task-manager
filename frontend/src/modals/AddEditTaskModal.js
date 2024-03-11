@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { v4 as uuidv4 } from "uuid";
 import crossIcon from "../assets/icon-cross.svg";
 import { dataStart } from "../redux/reducers/task.reducer";
+import { toast } from "react-toastify";
 
 function AddEditTaskModal({
   type,
@@ -47,10 +48,12 @@ function AddEditTaskModal({
   const validate = () => {
     setIsValid(false);
     if (!title.trim()) {
+      toast.error("Title must not be empty")
       return false;
     }
     for (let i = 0; i < subtasks.length; i++) {
       if (!subtasks[i].title.trim()) {
+        toast.error("Subtask must not be empty remove if not needed")
         return false;
       }
     }
