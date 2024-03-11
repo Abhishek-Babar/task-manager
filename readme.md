@@ -1,4 +1,5 @@
 **Task Management App**
+![Screen Recording 2024-03-11 at 2 56 06 PM (1)](https://github.com/Abhishek-Babar/task-manager/assets/84069474/a9f7f8b4-792d-4e65-95b1-b2bf93578914)
 
 This is a task management application that helps you organize your tasks efficiently. It consists of both frontend and backend components. Follow the instructions below to run the application on your local machine.
 
